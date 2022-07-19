@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    background-color: #ffcb00;
+    height: 125px;
+}
+
+.logo img {
+    padding-left: 200px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu p {
+    margin: 0;
+    padding: 35px;
+    text-transform: uppercase;
+}
+.menu p:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 1s all ease;
+}
+
+.icon img {
+    background-color: #b90000;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+
+.menu a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ba0000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-content {
+    padding: 180px;
+    background-image: linear-gradient(45deg, #b90000 0%, rgba(255, 203, 0, 0) 99%), url(/img/Layer\ 3.png);
+    height: 400px;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #ffffff;
+}
+
+.text {
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffcc00;
+    font-weight: 400;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.info li {
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.button {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.button-1 a {
+    background-color: #ffcc00;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 30px;
+    color: #ba0000;
+    padding: 15px;
+    border: 1px solid #ffcb00;
+    border-radius: 25px;
+}
+.button-1 a:hover{
+    transition: 1s all ease;
+    background-color: orangered;
+    border: 5px solid white;
+    font-size: 16px;
+    color: white;
+}
+
+.button-2 a {
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.button-2 a:hover{
+    transition: 1s all ease;
+    font-size: 16px;
+    border: 5px solid orangered;
+    color: orangered;
+    background-color: white;
+}
+
+.main-services {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 80px;
+    color: #ba0000;
+}
+
+.working {
+    display: flex;
+}
+
+.working img {
+    width: 100%;
+}
+
+.working p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+    margin: 0;
+}
+
+.working a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+    text-decoration: none;
+}
+.working a:hover{
+    transition: 1s all ease;
+    text-decoration: underline;
+    color: orangered;
+    font-size: 18px;
+}
+.working h3 {
+    font-size: 20px;
+    line-height: 80px;
+    color: #ba0000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-content {
+    background-image: url(/img/Layer\ 6.png);
+    width: 100%;
+    height: 700px;
+}
+
+h4 {
+    padding: 150px;
+    font-size: 50px;
+    line-height: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 360px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main-menu img {
+    width: 70%;
+}
+
+.main-menu li {
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffcc00;
+    font-family: "Font Awesome";
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #ba0000;
+}
+
+.main-menu p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+    margin: 0;
+}
+
+footer {
+    padding-top: 370px;
+}
+
+.footer-info {
+    display: flex;
+    background-color: #ba0000;
+    height: 350px;
+}
+
+.footer-info p {
+    padding: 40px 0 10px 200px;
+
+    max-width: 600px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.button-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.button-3 a {
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #a00000;
+
+}
+.button-3 a:hover{
+    transition: 1s all ease;
+    background-color: white;
+    border: 5px solid orangered;
+    font-size: 16px;
+    color: orangered;
+}
+
+h6 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 100px 0 10px 200px;
+}
+
+.footer-photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 115px 200px 100px;
+}
+
+.themeforest img {
+    border: 2px solid black;
+    padding: 30px 15px;
+}
+.themeforest img:hover {
+    transition: 1s all ease;
+    border:5px solid orangered;
+}
+
+.graphicriver img {
+    border: 2px solid black;
+    padding: 23px 15px;
+
+}
+.graphicriver img:hover{
+    border: 5px solid orangered;
+    transition: 1s all ease;
+
+}
+
+.photodune img {
+    border: 2px solid black;
+    padding: 24px 15px;
+
+}
+.photodune img:hover{
+    border: 5px solid orangered;
+    transition: 1s all ease;
+
+}
+
+.codecanyon img {
+    border: 2px solid black;
+    padding: 30.5px 15px;
+}
+.codecanyon img:hover{
+    border: 5px solid orangered;
+    transition: 1s all ease;
+
+}
+
+.footer-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #ba0000;
+}
+.footer-line li{
+    color: #ba0000;
+}
+.footer-line a{
+    text-decoration: none;
+    color: #777777;
+    text-transform: uppercase;
+}
+.footer-line a:hover{
+    text-decoration: underline;
+    color: orangered;
+
+}
+.footer-line img{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+.img{
+    width: 350px;
+    height: 350px;
+}
+.contact{
+    text-align: start;
+}
+
